@@ -7,7 +7,7 @@ html, body, *, *:before, *:after {
   html, body {
     height: 100%;
     width: 100%;
-    background-color: #000000;
+    background-color: #101010;
     color: #ffff;
     font-family: 'Roboto', sans-serif;
   }
@@ -26,8 +26,8 @@ html, body, *, *:before, *:after {
   .navbar {
     font-size: 15px;
     text-align: center;
-    background-color: #191919;
-    width: 15%;
+    background-color: #202020;
+    width: 275px;
     align-items: center;
     padding: 10px;
     justify-content: center;
@@ -61,7 +61,7 @@ html, body, *, *:before, *:after {
     border-radius: 15px;
   } */
   
-  /* no lmao 🎣
+  /*
   
   li {
     float: left;
@@ -104,7 +104,7 @@ html, body, *, *:before, *:after {
     font-size: 15px;
     text-align: center;
     background-color: #191919;
-    width: 50%;
+    width: 300px;
     align-items: center;
     padding: 10px;
     justify-content: center;
@@ -116,8 +116,6 @@ html, body, *, *:before, *:after {
   } 
   
   .nav-items {
-    border-left: 1px solid #303030;
-    border-right: 1px solid #303030;
     text-decoration: none;
   }
   
