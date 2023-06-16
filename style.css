@@ -1,0 +1,193 @@
+html, body, *, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .title2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  /* navbar */
+  .navbar {
+    font-size: 15px;
+    text-align: center;
+    background-color: #191919;
+    width: 15%;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+  } 
+  
+  .nav-items {
+    text-decoration: none;
+  }
+  
+  .nav-items a { 
+    display: block; 
+    color: white;
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none;
+  }
+  
+  /* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #191919;
+    position: fixed;
+    top: 0;
+    border-radius: 15px;
+  } */
+  
+  /* no lmao 🎣
+  
+  li {
+    float: left;
+    border-right: 1px solid #303030;
+  } */
+  
+  
+  .nav-items a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  .typed-out {
+    overflow: hidden;
+    text-align: center;
+    border-right: .15em solid #0388fc;
+    font-size: 1.6rem;
+    width: 0;
+    animation: typing 1s forwards;
+  }
+  
+  .container {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  @media (min-width: 320px) and (max-width: 999px) {
+  .navbar {
+    font-size: 15px;
+    text-align: center;
+    background-color: #191919;
+    width: 50%;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%)
+  } 
+  
+  .nav-items {
+    border-left: 1px solid #303030;
+    border-right: 1px solid #303030;
+    text-decoration: none;
+  }
+  
+  .nav-items a { 
+    display: block; 
+    color: white;
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none;
+  }
+    
+  
+  }
+  
+  
+  
+  
+  
+  /* fade animation */
+  .fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+  
+  /* reveal thingamabob */
+  
+  }  
