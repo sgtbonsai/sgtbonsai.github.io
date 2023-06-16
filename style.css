@@ -129,11 +129,7 @@ html, body, *, *:before, *:after {
     
   
   }
-  
-  
-  
-  
-  
+
   /* fade animation */
   .fade-in {
     animation: fadeIn ease 2s;
